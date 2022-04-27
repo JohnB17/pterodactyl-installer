@@ -1,3 +1,4 @@
+# :warning::warning::warning: I am not the original creator, I just made this as a version with 0.7, which the creator removed. :warning::warning::warning:
 # :bird: pterodactyl-installer
 
 [![Build Status](https://travis-ci.com/vilhelmprytz/pterodactyl-installer.svg?branch=master)](https://travis-ci.com/vilhelmprytz/pterodactyl-installer)
