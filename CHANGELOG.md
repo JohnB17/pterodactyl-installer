@@ -2,7 +2,11 @@
 
 This project follows the [semantic versioning](https://semver.org) convention. Changelog points should be divided into fixed, changed, or added.
 
-## next-release
+## v0.11.0 (released on 2022-05-17)
+
+### Added
+
+- [#322](https://github.com/vilhelmprytz/pterodactyl-installer/issues/322) panel/wings: Added support for Ubuntu 22.04.
 
 ### Fixed
 
