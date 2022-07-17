@@ -29,7 +29,8 @@ set -e
 #############################################################################
 
 SCRIPT_VERSION="v0.11.0"
-GITHUB_BASE_URL="https://raw.githubusercontent.com/JohnB17/pterodactyl-installer"
+GITHUB_BASE_URL="https://raw.githubusercontent.com/JohnB17/pterodactyl-installer/master"
+GITHUB_ORIG_URL="https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/master"
 
 LOG_PATH="/var/log/pterodactyl-installer.log"
 
@@ -78,17 +79,17 @@ output "This script is not associated with the official Pterodactyl Project."
 
 output
 
-PANEL_LATEST="$GITHUB_BASE_URL/$SCRIPT_VERSION/install-panel.sh"
+PANEL_LATEST="$GITHUB_ORIG_URL/install-panel.sh"
 
-WINGS_LATEST="$GITHUB_BASE_URL/$SCRIPT_VERSION/install-wings.sh"
+WINGS_LATEST="$GITHUB_ORIG_URL/install-wings.sh"
 
-PANEL_LEGACY="$GITHUB_BASE_URL/$SCRIPT_VERSION/legacy/panel_0.7.sh"
+PANEL_LEGACY="$GITHUB_BASE_URL/legacy/panel_0.7.sh"
 
-WINGS_LEGACY="$GITHUB_BASE_URL/$SCRIPT_VERSION/legacy/daemon_0.6.sh"
+WINGS_LEGACY="$GITHUB_BASE_URL/legacy/daemon_0.6.sh"
 
-PANEL_CANARY="$GITHUB_BASE_URL/master/install-panel.sh"
+PANEL_CANARY="$GITHUB_ORIG_URL/install-panel.sh"
 
-WINGS_CANARY="$GITHUB_BASE_URL/master/install-wings.sh"
+WINGS_CANARY="$GITHUB_ORIG_URL/install-wings.sh"
 
 while [ "$done" == false ]; do
   options=(
